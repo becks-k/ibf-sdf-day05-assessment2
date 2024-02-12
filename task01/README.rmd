@@ -1,0 +1,3 @@
+mvn archetype:generate -DgroupId=nus.iss.sdf -DartifactId=task01 -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+java -cp target/task01-1.0-SNAPSHOT.jar nus.iss.sdf.Main
